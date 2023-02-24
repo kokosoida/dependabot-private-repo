@@ -2,7 +2,7 @@ version: 2
 registries:
   github-octocat:
     type: git
-    url: github.com/kokosoida/priv
+    url: https://github.com/
     username: x-access-token
     password: ${{secrets.PRIV_TOKEN}}
 updates:
