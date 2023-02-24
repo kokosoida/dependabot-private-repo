@@ -9,6 +9,8 @@ updates:
   - package-ecosystem: "pip"
     directory: "/"
     insecure-external-code-execution: allow # https://github.com/dependabot/dependabot-core/issues/3494#issuecomment-824308116
-    registries: "*"
+#    registries: "*"
     schedule:
       interval: "daily"
+    ignore:
+      - dependency-name: "lib-a"

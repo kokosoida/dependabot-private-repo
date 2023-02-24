@@ -56,7 +56,7 @@ requests = "2.1.0"
 type = "git"
 url = "git@github.com:kokosoida/priv.git"
 reference = "main"
-resolved_reference = "9ee2a8881239988f98d6a41984d378351cf95826"
+resolved_reference = "ecd1d4ba7e998d552c5d8a5d8d3cb351a3045322"
 subdirectory = "lib_a"
 [[package]]
 name = "pyrsistent"
