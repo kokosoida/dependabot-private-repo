@@ -1,0 +1,14 @@
+version: 2
+registries:
+  github-octocat:
+    type: git
+    url: github.com/kokosoida/priv
+    username: x-access-token
+    password: ${{secrets.PRIV_TOKEN}}
+updates:
+  - package-ecosystem: "pip"
+    directory: "/"
+    insecure-external-code-execution: allow # https://github.com/dependabot/dependabot-core/issues/3494#issuecomment-824308116
+    registries: "*"
+    schedule:
+      interval: "daily"
